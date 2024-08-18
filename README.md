@@ -5,14 +5,16 @@ _Adds the "gocall" calling convention_
 
 ## Description:
 
-Adds support for the calling convention used by the Go Programming Language. Use *Go > Set Go calling convention* after loading the binary (ideally with analysis hold enabled and ensuring that all functions are created either automatically or by running another plugin to recover the symbols).
+Adds support for the calling convention used by the Go Programming Language.
+
+Golang binaries should be auto-detected and the platform set to `go-linux-x86_64`. If not, use 'Open With Options' to manually set the platform.
 
 
 **Before**
-![](https://github.com/PistonMiner/binaryninja-go-callconv/blob/main/media/before.png?raw=true)
+![](media/before.png)
 
 **After**
-![](https://github.com/PistonMiner/binaryninja-go-callconv/blob/main/media/after.png?raw=true)
+![](media/after.png)
 
 ## Minimum Version
 
